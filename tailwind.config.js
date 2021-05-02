@@ -11,7 +11,17 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {},
+      colors: {
+        primary: {
+          DEFAULT: '#0473bc',
+        },
+        secondary: {
+          DEFAULT: '#642c94',
+        },
+        tertiary: {
+          DEFAULT: '#4c4c4c',
+        },
+      },
     },
   },
   variants: {},
