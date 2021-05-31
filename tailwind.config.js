@@ -21,6 +21,9 @@ module.exports = {
         tertiary: {
           DEFAULT: '#4c4c4c',
         },
+        quaternary: {
+          DEFAULT: '#151515',
+        },
       },
     },
   },

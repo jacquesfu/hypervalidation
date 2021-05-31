@@ -5,21 +5,46 @@ path: home
 ---
 
 <div class="container mx-auto flex flex-col justify-center items-center">
-  <h1 class="mx-5 mb-3 md:mx-0">
+  <h1 class="mx-5 mb-4 md:mx-0">
     <strong
-      class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
+      class="
+        bg-clip-text
+        text-transparent
+        bg-gradient-to-r
+        from-primary
+        to-secondary
+      "
     >
       {{title}}
     </strong>
   </h1>
-  <div class="bg-gray-100 md:bg-white w-screen mb-3">
+  <div
+    class="
+      bg-gradient-to-r
+      from-gray-200
+      via-white
+      to-gray-200
+      md:bg-white
+      w-screen
+      mb-3
+      p-3
+    "
+  >
     <p class="text-gray-500 font-bold text-center mx-3.5">
       We deliver experiential learning programs in innovation that accelerate
       careers
     </p>
   </div>
   <div
-    class="bg-primary bg-opacity-80 rounded-sm py-4 px-6 mb-24 text-white text-1xl"
+    class="
+      bg-primary bg-opacity-80
+      rounded-sm
+      py-4
+      px-6
+      mt-8
+      mb-20
+      text-white text-1xl
+    "
   >
     <button class="font-bold">Contact Us</button>
   </div>
@@ -71,7 +96,8 @@ path: home
     </p>
   </div>
 
-  {% include "./_includes/partials/about.html" %}
+  {% include "./_includes/partials/about.html" %} {% include
+  "./_includes/partials/connect.html" %}
 
   <!-- {% include "./_includes/partials/content.html" %} -->
 </div>
