@@ -1,6 +1,6 @@
 ---
 items:
   - text: Contact Us
-    url: '#'
+    url: "/contact"
   - text: Blog
-    url: '/blog'
+    url: "/blog"
